@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'YJAlertController_Example' do
+  pod 'YJAlertController', :path => '../'
+
+  target 'YJAlertController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
